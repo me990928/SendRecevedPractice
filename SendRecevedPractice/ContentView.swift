@@ -14,7 +14,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             HStack{
-                TextEditor(text: $textEdit)
+                TextField("messages", text: $textEdit).textFieldStyle(.roundedBorder)
                 Button("Send") {
                     
                 }.buttonStyle(.borderedProminent)
@@ -22,8 +22,4 @@ struct ContentView: View {
         }
         .padding()
     }
-}
-
-#Preview {
-    ContentView()
 }
