@@ -16,6 +16,8 @@
 		D2A6559B2B3A69EE009BC3CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A6559A2B3A69EE009BC3CB /* ContentView.swift */; };
 		D2A6559D2B3A69F0009BC3CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A6559C2B3A69F0009BC3CB /* Assets.xcassets */; };
 		D2A655A02B3A69F0009BC3CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A6559F2B3A69F0009BC3CB /* Preview Assets.xcassets */; };
+		D2A655AB2B3A7451009BC3CB /* WatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A655AA2B3A7451009BC3CB /* WatchViewModel.swift */; };
+		D2A655AD2B3A7458009BC3CB /* PhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A655AC2B3A7458009BC3CB /* PhoneViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		D2A6559A2B3A69EE009BC3CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D2A6559C2B3A69F0009BC3CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2A6559F2B3A69F0009BC3CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D2A655AA2B3A7451009BC3CB /* WatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchViewModel.swift; sourceTree = "<group>"; };
+		D2A655AC2B3A7458009BC3CB /* PhoneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				D2A655862B3A69E6009BC3CB /* SendRecevedPracticeApp.swift */,
+				D2A655AC2B3A7458009BC3CB /* PhoneViewModel.swift */,
 				D2A655882B3A69E6009BC3CB /* ContentView.swift */,
 				D2A6558A2B3A69EE009BC3CB /* Assets.xcassets */,
 				D2A6558C2B3A69EE009BC3CB /* Preview Content */,
@@ -115,6 +120,7 @@
 			children = (
 				D2A655982B3A69EE009BC3CB /* SendRecevedPracticeApp.swift */,
 				D2A6559A2B3A69EE009BC3CB /* ContentView.swift */,
+				D2A655AA2B3A7451009BC3CB /* WatchViewModel.swift */,
 				D2A6559C2B3A69F0009BC3CB /* Assets.xcassets */,
 				D2A6559E2B3A69F0009BC3CB /* Preview Content */,
 			);
@@ -233,6 +239,7 @@
 			files = (
 				D2A655892B3A69E6009BC3CB /* ContentView.swift in Sources */,
 				D2A655872B3A69E6009BC3CB /* SendRecevedPracticeApp.swift in Sources */,
+				D2A655AD2B3A7458009BC3CB /* PhoneViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +249,7 @@
 			files = (
 				D2A6559B2B3A69EE009BC3CB /* ContentView.swift in Sources */,
 				D2A655992B3A69EE009BC3CB /* SendRecevedPracticeApp.swift in Sources */,
+				D2A655AB2B3A7451009BC3CB /* WatchViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
