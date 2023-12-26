@@ -21,11 +21,13 @@ final class WatchViewModel: NSObject, ObservableObject, WCSessionDelegate {
             if let value = userInfo["count"] as? Int {
                 counter = value
             } else {
-                print("None")
+                counter = 0
             }
             
             if let value = userInfo["message"] as? String {
                 message = value
+            } else {
+                message = "None"
             }
         }
     }
