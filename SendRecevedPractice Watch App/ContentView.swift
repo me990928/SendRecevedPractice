@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @ObservedObject var viewModel = WatchViewModel()
+    
     @State var textReceved: String = ""
     
     @State var buttonCounter: Int = 0
@@ -16,11 +18,11 @@ struct ContentView: View {
     var body: some View {
         VStack {
             
-            Text(textReceved + ":" + String(buttonCounter))
+            Text(viewModel.message + ":" + String(viewModel.counter))
             
             Button("Send") {
                 
-                buttonCounter += 1
+                viewModel.countUp()
                 
             }.buttonStyle(.borderedProminent)
         }
