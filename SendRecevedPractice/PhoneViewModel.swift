@@ -31,12 +31,6 @@ class PhoneViewModel: NSObject, ObservableObject, WCSessionDelegate {
         }
     }
     
-    func countUp(_ text:String) {
-        counter += 1
-        self.message = text
-        send(messages: message)
-    }
-    
     private let session: WCSession
     
     @Published var message: String = ""
@@ -48,6 +42,12 @@ class PhoneViewModel: NSObject, ObservableObject, WCSessionDelegate {
         super.init()
         self.session.delegate = self
         self.session.activate()
+    }
+    
+    func countUp(_ text:String) {
+        counter += 1
+        self.message = text
+        send(messages: message)
     }
     
     func send(messages: String){
