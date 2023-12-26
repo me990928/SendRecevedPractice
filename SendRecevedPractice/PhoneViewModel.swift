@@ -23,10 +23,18 @@ class PhoneViewModel: NSObject, ObservableObject, WCSessionDelegate {
     
     func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
         Task { @MainActor in
-            if let value = message["msg"] as? String {
-                self.message = value
+            if let value = message["count"] as? Int {
+                self.counter = value
+            } else {
+                print("None")
             }
         }
+    }
+    
+    func countUp(_ text:String) {
+        counter += 1
+        self.message = text
+        send(messages: message)
     }
     
     private let session: WCSession
@@ -51,7 +59,8 @@ class PhoneViewModel: NSObject, ObservableObject, WCSessionDelegate {
         Task.detached(priority: .medium) { [self] in
             
             let userInfo = [
-                "msg": messages
+                "count": counter,
+                "message": messages
             ] as [String: Any]
             
             session.transferUserInfo(userInfo)
