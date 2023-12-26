@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2A655872B3A69E6009BC3CB /* SendRecevedPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A655862B3A69E6009BC3CB /* SendRecevedPracticeApp.swift */; };
+		D2A655892B3A69E6009BC3CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A655882B3A69E6009BC3CB /* ContentView.swift */; };
+		D2A6558B2B3A69EE009BC3CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A6558A2B3A69EE009BC3CB /* Assets.xcassets */; };
+		D2A6558E2B3A69EE009BC3CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A6558D2B3A69EE009BC3CB /* Preview Assets.xcassets */; };
+		D2A655942B3A69EE009BC3CB /* SendRecevedPractice Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D2A655932B3A69EE009BC3CB /* SendRecevedPractice Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D2A655992B3A69EE009BC3CB /* SendRecevedPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A655982B3A69EE009BC3CB /* SendRecevedPracticeApp.swift */; };
+		D2A6559B2B3A69EE009BC3CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A6559A2B3A69EE009BC3CB /* ContentView.swift */; };
+		D2A6559D2B3A69F0009BC3CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A6559C2B3A69F0009BC3CB /* Assets.xcassets */; };
+		D2A655A02B3A69F0009BC3CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A6559F2B3A69F0009BC3CB /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2A655952B3A69EE009BC3CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2A6557B2B3A69E6009BC3CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2A655922B3A69EE009BC3CB;
+			remoteInfo = "SendRecevedPractice Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D2A655A62B3A69F0009BC3CB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D2A655942B3A69EE009BC3CB /* SendRecevedPractice Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D2A655832B3A69E6009BC3CB /* SendRecevedPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendRecevedPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A655862B3A69E6009BC3CB /* SendRecevedPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendRecevedPracticeApp.swift; sourceTree = "<group>"; };
+		D2A655882B3A69E6009BC3CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D2A6558A2B3A69EE009BC3CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2A6558D2B3A69EE009BC3CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D2A655932B3A69EE009BC3CB /* SendRecevedPractice Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SendRecevedPractice Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A655982B3A69EE009BC3CB /* SendRecevedPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendRecevedPracticeApp.swift; sourceTree = "<group>"; };
+		D2A6559A2B3A69EE009BC3CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D2A6559C2B3A69F0009BC3CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2A6559F2B3A69F0009BC3CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2A655802B3A69E6009BC3CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A655902B3A69EE009BC3CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2A6557A2B3A69E6009BC3CB = {
+			isa = PBXGroup;
+			children = (
+				D2A655852B3A69E6009BC3CB /* SendRecevedPractice */,
+				D2A655972B3A69EE009BC3CB /* SendRecevedPractice Watch App */,
+				D2A655842B3A69E6009BC3CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2A655842B3A69E6009BC3CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2A655832B3A69E6009BC3CB /* SendRecevedPractice.app */,
+				D2A655932B3A69EE009BC3CB /* SendRecevedPractice Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2A655852B3A69E6009BC3CB /* SendRecevedPractice */ = {
+			isa = PBXGroup;
+			children = (
+				D2A655862B3A69E6009BC3CB /* SendRecevedPracticeApp.swift */,
+				D2A655882B3A69E6009BC3CB /* ContentView.swift */,
+				D2A6558A2B3A69EE009BC3CB /* Assets.xcassets */,
+				D2A6558C2B3A69EE009BC3CB /* Preview Content */,
+			);
+			path = SendRecevedPractice;
+			sourceTree = "<group>";
+		};
+		D2A6558C2B3A69EE009BC3CB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D2A6558D2B3A69EE009BC3CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D2A655972B3A69EE009BC3CB /* SendRecevedPractice Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				D2A655982B3A69EE009BC3CB /* SendRecevedPracticeApp.swift */,
+				D2A6559A2B3A69EE009BC3CB /* ContentView.swift */,
+				D2A6559C2B3A69F0009BC3CB /* Assets.xcassets */,
+				D2A6559E2B3A69F0009BC3CB /* Preview Content */,
+			);
+			path = "SendRecevedPractice Watch App";
+			sourceTree = "<group>";
+		};
+		D2A6559E2B3A69F0009BC3CB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D2A6559F2B3A69F0009BC3CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2A655822B3A69E6009BC3CB /* SendRecevedPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A655A72B3A69F0009BC3CB /* Build configuration list for PBXNativeTarget "SendRecevedPractice" */;
+			buildPhases = (
+				D2A6557F2B3A69E6009BC3CB /* Sources */,
+				D2A655802B3A69E6009BC3CB /* Frameworks */,
+				D2A655812B3A69E6009BC3CB /* Resources */,
+				D2A655A62B3A69F0009BC3CB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2A655962B3A69EE009BC3CB /* PBXTargetDependency */,
+			);
+			name = SendRecevedPractice;
+			productName = SendRecevedPractice;
+			productReference = D2A655832B3A69E6009BC3CB /* SendRecevedPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2A655922B3A69EE009BC3CB /* SendRecevedPractice Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A655A32B3A69F0009BC3CB /* Build configuration list for PBXNativeTarget "SendRecevedPractice Watch App" */;
+			buildPhases = (
+				D2A6558F2B3A69EE009BC3CB /* Sources */,
+				D2A655902B3A69EE009BC3CB /* Frameworks */,
+				D2A655912B3A69EE009BC3CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SendRecevedPractice Watch App";
+			productName = "SendRecevedPractice Watch App";
+			productReference = D2A655932B3A69EE009BC3CB /* SendRecevedPractice Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2A6557B2B3A69E6009BC3CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					D2A655822B3A69E6009BC3CB = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					D2A655922B3A69EE009BC3CB = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = D2A6557E2B3A69E6009BC3CB /* Build configuration list for PBXProject "SendRecevedPractice" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2A6557A2B3A69E6009BC3CB;
+			productRefGroup = D2A655842B3A69E6009BC3CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2A655822B3A69E6009BC3CB /* SendRecevedPractice */,
+				D2A655922B3A69EE009BC3CB /* SendRecevedPractice Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2A655812B3A69E6009BC3CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A6558E2B3A69EE009BC3CB /* Preview Assets.xcassets in Resources */,
+				D2A6558B2B3A69EE009BC3CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A655912B3A69EE009BC3CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A655A02B3A69F0009BC3CB /* Preview Assets.xcassets in Resources */,
+				D2A6559D2B3A69F0009BC3CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2A6557F2B3A69E6009BC3CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A655892B3A69E6009BC3CB /* ContentView.swift in Sources */,
+				D2A655872B3A69E6009BC3CB /* SendRecevedPracticeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A6558F2B3A69EE009BC3CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A6559B2B3A69EE009BC3CB /* ContentView.swift in Sources */,
+				D2A655992B3A69EE009BC3CB /* SendRecevedPracticeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2A655962B3A69EE009BC3CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2A655922B3A69EE009BC3CB /* SendRecevedPractice Watch App */;
+			targetProxy = D2A655952B3A69EE009BC3CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D2A655A12B3A69F0009BC3CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2A655A22B3A69F0009BC3CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D2A655A42B3A69F0009BC3CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SendRecevedPractice Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = WFCKBPMR9P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SendRecevedPractice;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.nanasoft.practice.SendRecevedPractice;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanasoft.practice.SendRecevedPractice.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		D2A655A52B3A69F0009BC3CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SendRecevedPractice Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = WFCKBPMR9P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SendRecevedPractice;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.nanasoft.practice.SendRecevedPractice;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanasoft.practice.SendRecevedPractice.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		D2A655A82B3A69F0009BC3CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SendRecevedPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = WFCKBPMR9P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SendRecevedPractice;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanasoft.practice.SendRecevedPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2A655A92B3A69F0009BC3CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SendRecevedPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = WFCKBPMR9P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SendRecevedPractice;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanasoft.practice.SendRecevedPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2A6557E2B3A69E6009BC3CB /* Build configuration list for PBXProject "SendRecevedPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A655A12B3A69F0009BC3CB /* Debug */,
+				D2A655A22B3A69F0009BC3CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A655A32B3A69F0009BC3CB /* Build configuration list for PBXNativeTarget "SendRecevedPractice Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A655A42B3A69F0009BC3CB /* Debug */,
+				D2A655A52B3A69F0009BC3CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A655A72B3A69F0009BC3CB /* Build configuration list for PBXNativeTarget "SendRecevedPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A655A82B3A69F0009BC3CB /* Debug */,
+				D2A655A92B3A69F0009BC3CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2A6557B2B3A69E6009BC3CB /* Project object */;
+}
