@@ -18,6 +18,7 @@
 		D2A655A02B3A69F0009BC3CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A6559F2B3A69F0009BC3CB /* Preview Assets.xcassets */; };
 		D2A655AB2B3A7451009BC3CB /* WatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A655AA2B3A7451009BC3CB /* WatchViewModel.swift */; };
 		D2A655AD2B3A7458009BC3CB /* PhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A655AC2B3A7458009BC3CB /* PhoneViewModel.swift */; };
+		D2A655B12B3AC26C009BC3CB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D2A655B02B3AC26B009BC3CB /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		D2A6559F2B3A69F0009BC3CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D2A655AA2B3A7451009BC3CB /* WatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchViewModel.swift; sourceTree = "<group>"; };
 		D2A655AC2B3A7458009BC3CB /* PhoneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewModel.swift; sourceTree = "<group>"; };
+		D2A655B02B3AC26B009BC3CB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		D2A6557A2B3A69E6009BC3CB = {
 			isa = PBXGroup;
 			children = (
+				D2A655B02B3AC26B009BC3CB /* README.md */,
 				D2A655852B3A69E6009BC3CB /* SendRecevedPractice */,
 				D2A655972B3A69EE009BC3CB /* SendRecevedPractice Watch App */,
 				D2A655842B3A69E6009BC3CB /* Products */,
@@ -216,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2A655B12B3AC26C009BC3CB /* README.md in Resources */,
 				D2A6558E2B3A69EE009BC3CB /* Preview Assets.xcassets in Resources */,
 				D2A6558B2B3A69EE009BC3CB /* Assets.xcassets in Resources */,
 			);
